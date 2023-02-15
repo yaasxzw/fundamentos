@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>controle condicional</title>
+</head>
+
+<body>
+
+    <script>
+        //condicional Simples
+
+        if (2 == 2){
+            console.log('Entrou no bloco IF (verdadeiro)')
+        }
+
+        //condicional composta - se/senão
+
+        if(5 == 5){
+            console.log ('Entrou no bloco IF (verdadeiro)')
+        } else{
+            console.log ('Entrou no bloco Else (falso)')
+        }
+
+         //condicional composta encadeada se / senão se / senão
+
+         if(false){
+            console.log ('Entrou no bloco IF (verdadeiro)')
+
+        } else if(true){
+             console.log ('Entrou no bloco Else (2º verdadeiro)')
+
+        } else if(true){
+
+            console.log ('Entrou no bloco Else (3º verdadeiro)')
+
+        } else{
+            console.log ('Entrou no bloco Else (falso)')
+        }
+
+        let numero = 5
+        switch(numero){
+            case '1':
+            console.log('caso 01')
+            case '2':
+            console.log('caso 02')
+            break;
+            default:
+            console.log('bloco falso')
+        }
+          
+        
+    </script>
+    
+</body>
+
+</html>
